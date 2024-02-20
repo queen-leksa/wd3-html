@@ -1,0 +1,32 @@
+Даша {
+    цвет-волос: розовый;
+    длина-ногтей: middle;
+    цвет-ногтей: black;
+    ногти: middle black;
+}
+
+Даша{цвет-волос:розовый;длина-ногтей:middle;цвет-ногтей:black;ногти: middle black;}
+
+селектор {
+    property: value;
+    свойство: значение
+} 
+селектор2 {} 
+selector3 {}
+
+
+
+color
+    rgb(245, 78, 94);
+
+red     green   blue
+255     255     255     white
+0       255     0       lime
+0       0       0       black
+127     127     127     grey / gray
+255     255     0       yellow
+255     127     0       orange
+255     0       255     magenta
+0       255     255     aqua / cyan
+
+
