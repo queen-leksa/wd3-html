@@ -3,6 +3,11 @@
 body {
     background-color: silver;
     font-size: 20px;
+    background-image: url("site/images/bird.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* scroll | fixed */
+    background-size: cover; /* cover (растянуть) | contain (вписать) */
 }
 h1 {
     color: rgb(90, 70, 200);
@@ -24,6 +29,7 @@ p {
     font-size: 2rem;
     font-family: Roboto, "Segoe Script", sans-serif;
     font-family: sans-serif;
+    line-height: 1.2; /* высота строки */
 }
 div {
     font-size: .5em; /* 10 px*/
@@ -33,4 +39,37 @@ div p {
     font-style: normal; /* normal | italic | oblique */
     font-weight: 500; /* толщина букв - light - 100 | normal - 400 | bold - 600 | bolder - 900 */
     font-variant: small-caps;
+}
+
+#special {
+    background-image: url(site/images/parrot.png);
+    background-repeat: no-repeat; /* repeat | no-repeat | repeat-x | repeat-y */
+    background-size: auto 20%; /* ширина высота | auto size | size*/
+    background-position: right bottom; /* x y | % % | px px | left | right | bottom | top | center */
+    background-color: rgba(255, 227, 194, .3);
+}
+
+.text {
+    color: springgreen;
+    text-decoration: underline;
+}
+.bg {
+    background-image: url(site/images/parrot.png);
+    background-repeat: repeat-y; /* repeat | no-repeat | repeat-x | repeat-y */
+    background-size: 100px; /* ширина высота | auto size | size*/
+    background-position: right; /* x y | % % | px px | left | right | bottom | top | center */
+    background-color: rgba(179, 100, 176, 0.3);
+    background-size: contain;
+}
+
+
+.content {
+    /*
+        font: font-style font-variant font-weight font-size / line-height font-family; 
+        font: font-size font-family; 
+
+        background: background-color bacckground-image background-repeat background-position / background-size background-attachment;
+    */
+    font: italic normal 100 20px / 2 Arial, sans-serif;
+    background: red url("site/images/bird.png") center left / 50%;
 }
