@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,400;0,500&family=Rubik+Glitch+Pop&display=swap');
+        /*
+            px - минимальный квадратик на экране монитора, которая может быть закрашена одним цветом
+            800х600
+
+            абсолютные
+                cm
+                mm
+                in
+                deg
+            относительные
+                px - относительно разрешения экрана монитора (1920х1080)
+                % - относительно размера родительского тега (в 90% случаев)
+                em - относительно размера шрифта родительского тега
+                rem - относсительно размера шрифта, заданного по умолчанию (всего сайта)
+        */
+
+        /*
+            text-align - выравнивание текста по горизонтали
+            text-decoration - черточка в райне текста (перечеркивание / подчеркивание)
+            text-transform - большие / строчные буквы
+            text-indent - красная строка
+            letter-spacing - расстояние между буквами
+            word-spacing - расстояние между словами
+            text-shadow - тень
+                x y размытие цвет
+
+            font - шрифт
+                font-size - размер шрифта
+                font-family - семейство шрифтов
+                    serif - шрифт с засечками (Georgia, Times New Roman)
+                    sans-serif - без засечек (Roboto, Arial, Helvetica)
+                    monospace - все симвволы одного размера Ш i (Consolas)
+                    cursive - имитация начертания от руки (Segoe Script)
+                    fantasy - декоративный (Impact, Mistral)
+                
+
+        */
+
+        html {
+            /* font-size: 10px; /* - 1rem */
+        }
+        body {
+            background-color: silver;
+            font-size: 20px;
+        }
+        h1 {
+            color: rgb(90, 70, 200);
+            text-align: center;
+            font-size: 4em; /* 100% от размера текста родителя */
+            text-decoration: overline; /* none | underline | line-through | overline */
+            text-transform: capitalize; /* none | uppercase | lowercase | capitalize */
+            letter-spacing: .2em;
+            word-spacing: 1em;
+            text-shadow: 2px 0 5px magenta, -2px 0 5px cyan;
+        }
+        h2 {
+            font-size: 50px;
+            font-family: Impact;
+        }
+        p {
+            text-align: justify;
+            text-indent: 30px;
+            font-size: 2rem;
+            font-family: Roboto, "Segoe Script", sans-serif;
+            font-family: sans-serif;
+        }
+        div {
+            font-size: .5em; /* 10 px*/
+        }
+        div p {
+            font-family: "IBM Plex Mono", sans-serif;
+            font-style: normal; /* normal | italic | oblique */
+            font-weight: 500; /* толщина букв - light - 100 | normal - 400 | bold - 600 | bolder - 900 */
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <!-- div>p>span^p -->
+    <!-- div>p>span^^p -->
+    <!-- h1>lorem4^div*3>h2>lorem3^p*2>lorem40 -->
+    <h1>Lorem ipsum dolor sit.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error asperiores quidem illum sit modi consectetur blanditiis nostrum, totam ea eius? In quos ab repellendus perferendis quo, magnam beatae illum, exercitationem asperiores nesciunt consequatur fuga quidem rem vel sunt temporibus.</p>
+    <div>
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis error asperiores quidem illum sit modi consectetur blanditiis nostrum, totam ea eius? In quos ab repellendus perferendis quo, magnam beatae illum, exercitationem asperiores nesciunt consequatur fuga quidem rem vel sunt temporibus.</p>
+        <p>Temporibus neque, corporis hic nobis libero asperiores minima expedita qui officia enim harum, cum ipsa numquam quam dolor nulla rerum iusto assumenda atque esse! Iste, a illum? Iure exercitationem voluptas, enim nesciunt pariatur facere saepe ullam blanditiis, tempore qui corporis!</p>
+    </div>
+    <div>
+        <h2>Numquam, enim quaerat?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempora quibusdam blanditiis, architecto pariatur quis. In voluptate, quos distinctio voluptatibus possimus reiciendis accusantium nam optio perferendis ab assumenda aut eveniet. Soluta dolorem quos, maxime recusandae veniam dolore culpa illum saepe.</p>
+        <p>Ea, fugiat earum animi quo numquam molestias. Nulla vitae officia nobis ipsum corporis illo, aliquid earum laudantium, officiis velit reprehenderit. Iste harum excepturi, similique incidunt accusamus optio ea pariatur perspiciatis et quos animi! Suscipit, libero beatae assumenda nulla illum neque.</p>
+    </div>
+    <div>
+        <h2>Blanditiis, similique ratione.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi placeat blanditiis, tempora laudantium perferendis nostrum neque aperiam similique obcaecati tenetur est perspiciatis quidem, suscipit at, sit doloremque necessitatibus consequatur voluptate cum quasi soluta. Labore consequatur doloribus perferendis odit quisquam in.</p>
+        <p>Provident, qui! Praesentium voluptates deleniti iure impedit dolorem. Saepe, nihil! Consectetur voluptate itaque cum aliquid eligendi esse, nulla et nisi? Corrupti facilis ea in ullam dolorum, totam consequatur consectetur impedit pariatur cumque sunt sed fugit commodi quos natus id enim.</p>
+    </div>
+</body>
+</html>
