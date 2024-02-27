@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,400;0,500&family=Rubik+Glitch+Pop&display=swap');
+
+body {
+    background-color: silver;
+    font-size: 20px;
+}
+h1 {
+    color: rgb(90, 70, 200);
+    text-align: center;
+    font-size: 4em; /* 100% от размера текста родителя */
+    text-decoration: overline; /* none | underline | line-through | overline */
+    text-transform: capitalize; /* none | uppercase | lowercase | capitalize */
+    letter-spacing: .2em;
+    word-spacing: 1em;
+    text-shadow: 2px 0 5px magenta, -2px 0 5px cyan;
+}
+h2 {
+    font-size: 50px;
+    font-family: Impact;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 2rem;
+    font-family: Roboto, "Segoe Script", sans-serif;
+    font-family: sans-serif;
+}
+div {
+    font-size: .5em; /* 10 px*/
+}
+div p {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-style: normal; /* normal | italic | oblique */
+    font-weight: 500; /* толщина букв - light - 100 | normal - 400 | bold - 600 | bolder - 900 */
+    font-variant: small-caps;
+}

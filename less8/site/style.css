@@ -1,0 +1,16 @@
+body {
+    background-color: yellowgreen;
+    font-family: monospace;
+    color: forestgreen;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit
+}
+h1 {
+    font-family: Impact, fantasy;
+    color: blueviolet;
+    text-decoration: overline;
+    font-size: 100px;
+}
