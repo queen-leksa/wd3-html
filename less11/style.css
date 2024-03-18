@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.daddy {
+    background-color: #222;
+    color: aquamarine;
+    padding: 10px;
+    font-size: 0;
+}
+.child {
+    border: 2px solid;
+    margin: 10px;
+    border-bottom-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    /* width: 14%; */
+    width: calc(100% / 7 - 20px);
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    /* width: calc(100% / 7 - 20px - 4px - 10px - (2px * 2)); */
+    cursor: pointer;
+}
+.child:hover {
+    background-color: aquamarine;
+    color: #222;
+}
+.child span {
+    color: pink;
+}
+.child3 {
+    /* visibility: hidden; | visible*/
+    opacity: .5;
+    /* display: none; */
+}
+
+/*
+    display: 
+        block - блочный тег (div | h1-h6 | p | header | nav ...)
+        inline - строчный тег (span | a | strong | bold | sup ...)
+        none - полностью убрать тег из контента
+        inline-block - строчно-блочный тег (все параметры блочного тега с расположением в строку)
+*/
